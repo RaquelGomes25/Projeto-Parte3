@@ -1,0 +1,80 @@
+*{
+   font-family: 'Playfair Display', serif;/* escolhe a fonte(pegou no google fonts)*/
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center; /* centralizar o texto */
+    margin: 0;
+}
+:root {
+    --blue: #2A88C8; /* cria a variável da cor */
+    --white: #ffffff; /* cria a variável da cor */
+    --black: #333333; /*cria a variável da cor */
+    --gray: #DCDCDC; /*cria a variável da cor */
+}
+
+.imagem-expandida {
+    max-width: 300%;
+    height: 350px;
+      
+}
+
+header {
+    background-color: var(--blue); /*cor do de fundo*/
+    color:var(--white); /*cor da letra*/;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: medium;
+}
+
+nav a {
+    text-decoration: none; /* retirar o sublinhado */
+    color: var(--white); /*cor da letra*/;
+    font-size: 3ex; /* tamanho da fonte */
+}
+
+section {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 0 20px;
+}
+
+footer {
+    background-color: var(--black); /*cor do fundo */
+    color: var(--white); /*cor da letra*/
+    text-align: center;
+    padding: 1em;
+    bottom: 0;
+    width: 100%;
+}
+
+#hero {
+    background-color:var(--gray); /*cor do fundo*/
+    padding: 2em;
+    text-align: center;
+}
+
+.tabela {
+    width: 100%;
+    border-collapse: separate; /* Usar 'separate' para ter espaçamento entre células */
+    border-spacing: 10px; /* Adicionar espaçamento entre células */
+    margin-top: 20px; 
+}
+
+.tabela th, .tabela td {
+    border: 1px solid var(--gray); /*cor do de fundo*/
+    padding: 12px; /* Ajustar o espaçamento interno */
+    text-align: center; /* Centralizar o conteúdo  */
+}
+
+
+
+
+
